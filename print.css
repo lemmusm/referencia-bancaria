@@ -1,0 +1,54 @@
+/*
+		 __  __  __    ____  __  __  __  __  ___    ___  _____  __  __ 
+		(  \/  )(  )  ( ___)(  \/  )(  )(  )/ __)  / __)(  _  )(  \/  )
+		 )    (  )(__  )__)  )    (  )(__)( \__ \ ( (__  )(_)(  )    ( 
+		(_/\/\_)(____)(____)(_/\/\_)(______)(___/()\___)(_____)(_/\/\_)
+
+
+	Theme Name: banco.uppenjamo
+	Theme URI: http://uppenjamo.edu.mx/banco
+	Version: 1.0
+	Description: Development by mlemus.com
+	Author: Manuel Hernandez Lemus @manelemus
+*/
+
+/* CSS Document */
+
+@charset "UTF-8";
+
+*{border: none; margin: 0; padding: 0; text-decoration: none;}
+html, body{height: 792px; width: 100%; }
+body{background: transparent; color: #333; font-family: 'Lato'; min-width: 612px; font-weight: 200;}
+
+/*Block One*/
+.containerHome { display: table; height: 100%; width: 100%; margin: 0 auto;}
+.container{display: table; height: 792px; width: 100%; margin: 0 auto;}
+	.content{ display: table-cell; position: relative; }
+		.inner{ height: 50%; margin: 0 auto; text-align: center; width: 65%}
+		#description{ font-size: 4em; text-align: center;}
+			#description strong {color: #16a085; font-weight: 400;}
+			#description img{line-height: 50px}
+		.innerTop{ height: 180px; margin: 50px auto; text-align: center; width: 44%;}
+
+input, select{border:1px solid #999; color:#16a085; font-family: 'Lato'; padding: 5px 5px; -webkit-appearance:none; width: 250px}
+	#concepto, #matricula{width: 100%}
+		.btnSendBox{margin: 80px auto; text-align: center; width: 100%}
+			#btnSubmit{ background: #1abc9c; font-weight: 300; border-bottom: 7px solid #16a085; color: #FFF; font-size: 1.3em; padding: 10px 30px; }
+				#btnSubmit:hover{background: #16a085; color: #F6F6F6;}
+			#btnI{ display: none}
+
+.title{font-size: 1.3em; font-weight: 300; margin-bottom: 15px; width: 100%;}	
+.fieldForm{width: 100%}
+#left{display: inline-block; width: 45%; vertical-align: top }
+#right{display: inline-block; width: 45%; vertical-align: top}
+#resultado{color: #2c3e50; font-size: 3em;}
+.error{color: red;}
+
+/*Reporte*/
+	.wrap{background: white; border: 1px solid; border-color: #e5e6e9 #dfe0e4 #d0d1d5; border-radius: 3px; margin:  0 auto; margin-top: 30px; padding: 20px; width: 90%;}
+		.sections{ height: auto; font-size: 1em; height: 50px; line-height: 50px; margin: auto; width: 100%}
+			.cabecera {margin-bottom: 50px}
+			.left{display: inline-block; text-align: left; width: 30%}
+			.right{display: inline-block; text-align: right; width: 65%;}
+				.fixR{text-align: left;}
+			.print{display: none}

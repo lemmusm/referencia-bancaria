@@ -1,0 +1,106 @@
+/*
+		 __  __  __    ____  __  __  __  __  ___    ___  _____  __  __ 
+		(  \/  )(  )  ( ___)(  \/  )(  )(  )/ __)  / __)(  _  )(  \/  )
+		 )    (  )(__  )__)  )    (  )(__)( \__ \ ( (__  )(_)(  )    ( 
+		(_/\/\_)(____)(____)(_/\/\_)(______)(___/()\___)(_____)(_/\/\_)
+
+
+	Theme Name: banco.uppenjamo
+	Theme URI: http://uppenjamo.edu.mx/banco
+	Version: 1.0
+	Description: Development by mlemus.com
+	Author: Manuel Hernandez Lemus @manelemus
+*/
+
+/* CSS Document */
+
+@charset "UTF-8";
+
+/*Pagina inicio*/
+
+/* Autor: Ing. Manuel Hernandez Lemus @lemus2307*/
+				@charset "UTF-8";
+				/* CSS Document */
+
+*{border:0; margin: 0; text-decoration: none}
+html, body { height: 100%; }
+body { background: #E9EAED; font-family: 'Lato'; font-weight: 200;}
+
+#container {display: table; height: 100%; width: 100%; margin: 0;}
+#content{display: table-cell; vertical-align: middle; position: relative; }
+
+/*Inicio*/
+#inner{margin: 0 auto; width: 40%;}
+	.logo{background: transparent; padding-top: 5px; margin-bottom: 30px; text-align: center; width: 100%}	
+	.title{background: transparent; color: #2a99af; display: inline-block; height: 50px; font-size: 2.2em; margin: 15px auto; text-align: center; width: 100%; vertical-align: top}
+	.boxContenido{font-weight: 300; padding: 5px 0; width: 100%}
+	.cols{color: #ECF0F1; display: inline-block; height: 100px; margin: 15px auto; text-align: center; width: 49%; vertical-align: top;}
+		.btn{ background: #4aabbf; color: #FFF; border: 1px solid; border-color: #e5e6e9 #dfe0e4 #d0d1d5; border-radius: 3px; font-weight: 400; font-size: 1em; height: 40px; line-height: 35px; margin: 0 auto; padding: 5px; text-align: center; width: 70%; }
+			.btn:hover{background: #2a99af; color: #333}
+		.tittleBtn{margin-top: -20px;}
+
+/*Proceso*/
+
+#innerProcess{margin: 0 auto; width: 75%;}
+	.boxContenidoProcess{display: inline-block; font-weight: 300; height: 260px;padding: 5px 0; width: 49%; vertical-align: top}
+		.fieldForm h5{color: #82878f;}
+	.boxContenidoProcess span{font-size: 1.2em; color: #82878f; line-height: 25px; letter-spacing:1.2px;  text-align: justify;}
+
+/*Formulario*/
+.error{color: #c0392b; font-size: 15px; display: inline-block; width: 100%}
+.fieldForm{text-align: center;}
+	input, select{background: #dfe0e4; border: 1px solid; border-color: #e5e6e9 #dfe0e4 #d0d1d5; color: #82878f; -webkit-border-radius:0px; -moz-border-radius:0px; border-radius:0px; font-family: 'Lato'; padding: 5px 5px; -webkit-appearance:none;}
+	input{height: 40px; width: 340px !important}
+	select{height: 50px; width: 350px !important}
+		input:hover, select:hover{background: #d0d1d5}
+	#concepto, #matricula{margin: 10px auto; font-size: 1em; }
+.btnSendBox{margin: 10px auto; text-align: center;}
+		#btnSubmit{ background: #4aabbf; color: #FFF; border: 1px solid; border-color: #e5e6e9 #dfe0e4 #d0d1d5; border-radius: 3px; font-weight: 400; font-size: 1.2em; height: 50px; text-align: center;}
+			#btnSubmit:hover{background: #2a99af; color: #333}
+
+	/*Placeholder*/
+		::-webkit-input-placeholder { color: #82878f; }/* WebKit browsers */
+		::-webkit-select-placeholder { color: #82878f; }/* WebKit browsers */
+		:-moz-placeholder { color: #82878f; opacity:  1;}/* Mozilla Firefox 4 to 18 */
+		::-moz-placeholder { color: #82878f; opacity:  1;}/* Mozilla Firefox 19+ */
+		:-ms-input-placeholder { color: #82878f; }/* Internet Explorer 10+ */
+		:-ms-select-placeholder { color: #82878f; }/* Internet Explorer 10+ */
+
+	/*Reporte*/
+	.wrap{background: white; border: 1px solid; border-color: #e5e6e9 #dfe0e4 #d0d1d5; border-radius: 3px;  margin:  0 auto; margin-top: 30px; padding: 20px; width: 65%;}
+		.sections{ height: auto; font-size: 1.2em; height: 50px; line-height: 50px; margin: auto; width: 100%}
+			.cabecera {margin-bottom: 50px}
+			.colorGray{background: #F2F2F2}
+			.left{display: inline-block; text-align: left; width: 30%}
+			.right{display: inline-block; text-align: right; width: 65%;}
+				.fixR{text-align: left;}
+				#info{margin: 30px auto; font-size: .9em; text-align: center; width: 65%}
+			.print{background: transparent; color: #16a085; margin: auto; text-align: right; width: 65%}
+				.print a{text-decoration: none; color: #c0392b}
+
+/*Media Queries*/
+
+
+/*iPhone Resolution Landscape*/
+@media only screen and (min-width: 480px) and (max-width: 568px){
+
+	}
+
+/*iPhone Resolution Portrait*/	
+@media only screen and (min-width: 0) and (max-width: 479px){	/*Inicio*/
+	
+/*Inicio*/
+	#inner{margin: 0 auto; width: 95%;}
+		.logo{width: 100%}	
+		.title{width: 100%;}
+		.boxContenido{width: 100%}
+		.cols{margin: 1px auto; width: 100%}
+
+/*Proceso*/
+#innerProcess{width: 95%;}
+	.fieldForm h5{text-align: center;}
+	.boxContenidoProcess{display: inline-block; margin-top: 50px; width: 95%;}
+		input{height: 40px; width: 290px !important}
+		select{height: 50px; width: 300px !important}
+
+}
