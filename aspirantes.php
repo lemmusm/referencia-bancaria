@@ -15,8 +15,6 @@
 	Theme Name: banco.uppenjamo
 	Theme URI: http://uppenjamo.edu.mx/banco
 	Version: 1.0
-	Description: Development by mlemus.com
-	Author: Manuel Hernandez Lemus @manelemus
 -->
 
 <head>
